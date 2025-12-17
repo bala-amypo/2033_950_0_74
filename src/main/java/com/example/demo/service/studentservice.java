@@ -1,6 +1,7 @@
 package com.example.demo.studentservice;
-import org.springframework.web.bind.annotation.*;
-@RestController
+import java.util.*;
+import org.springframework.stereotype.Service;
+import com.example.demo.studententity
 public class studentservice{
     
 }
