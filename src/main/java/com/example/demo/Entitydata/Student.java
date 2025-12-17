@@ -1,5 +1,4 @@
-
-package com.example.sql.Entity;
+package com.example.sql.Entitydata;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
