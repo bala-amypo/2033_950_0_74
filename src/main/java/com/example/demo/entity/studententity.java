@@ -1,7 +1,10 @@
 package com.example.demo.entity;
-
+import jakarta.persistence.*;
+@Entity
 public class studententity{
-    private int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
     private String name;
     private String email;
 
